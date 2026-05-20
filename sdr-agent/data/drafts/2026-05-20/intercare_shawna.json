@@ -7,7 +7,7 @@
   },
   "format": "email",
   "subject_line": "Intercare's WC adjuster volume",
-  "message": "26 WC adjuster openings at once means your case volume is climbing. That usually means the record review stage gets messy before the new hires are up to speed.\n\nBrighterway organizes and filters medical records automatically. Less manual work per claim.\n\nIs that part of the process something you're looking to fix?",
+  "message": "26 WC adjuster openings at once means case volume is climbing fast. The record review stage tends to break first when that happens.\n\nBrighterway handles the full pipeline: organizes and deduplicates records, filters out 80% of irrelevant pages, generates AI summaries, and gives adjusters a searchable view by body part or document type. Less manual work per claim.\n\nIs that something Intercare is looking to fix?",
   "signal_referenced": "26 active workers comp adjuster job postings as of February 2026",
   "word_count": 53,
   "flag_for_review": true,
