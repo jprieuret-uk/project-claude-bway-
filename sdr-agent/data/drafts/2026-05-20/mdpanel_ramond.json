@@ -7,9 +7,9 @@
   },
   "format": "email",
   "subject_line": "MDpanel's medical record reviewer hiring",
-  "message": "MDpanel is mass hiring medical record reviewers. 20 in one batch tells me volume is outpacing what the current process can handle.\n\nBrighterway was built for QME and IME work. It organises records, filters out the 80% that is irrelevant, generates AI summaries, and lets physicians write reports without leaving the platform. Built to fit how your panel operates, not the other way around. Much cheaper than growing headcount.\n\nIs this something you are actively looking at?",
+  "message": "Saw MDpanel is mass hiring record reviewers. 20 in one batch usually means the current process is hitting its limit.\n\nBrighterway was built for QME and IME panels. Physicians get AI summaries, write reports, and search records all in one place. Much cheaper than headcount, and built around how your panel works.\n\nIs this something you are actively looking at?",
   "signal_referenced": "Mass hiring for medical record reviewers — 20 hires in one batch",
-  "word_count": 46,
+  "word_count": 60,
   "flag_for_review": false,
   "flag_reason": null
 }
