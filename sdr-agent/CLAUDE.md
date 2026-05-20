@@ -11,7 +11,9 @@ Brighterway is an AI platform that handles the full medical record review pipeli
 5. **Analytics** across the full record pipeline
 6. **Searchable by body part, document type, or keyword** (e.g. "Ankle," "Clinical Notes") in seconds
 
-It is cheaper than other AI tools doing this. The output quality is better than other AI startups in this space. It replaces or reduces the need for offshore medical record reviewers.
+It is much cheaper than other AI tools doing this. The output quality is better than other AI startups in this space. It replaces or reduces the need for offshore medical record reviewers.
+
+The platform is bespoke and highly customisable. It is built to fit how a specific panel or company operates, not a one-size-fits-all product. This is a differentiator worth referencing in outreach.
 
 The people buying it are not physicians. They are the operations people who manage the flow of cases to physicians.
 
