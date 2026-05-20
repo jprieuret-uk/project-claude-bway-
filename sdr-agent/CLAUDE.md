@@ -4,7 +4,7 @@
 
 Brighterway is an AI platform that handles the full medical record review pipeline for workers' comp and med-legal work. It is not just a filter. Here is what it actually does:
 
-1. **Organizes and deduplicates** disorganized medical records (usually large PDF batches)
+1. **Organises and deduplicates** disorganized medical records (usually large PDF batches)
 2. **Filters out 80% of irrelevant records**, surfacing only what is relevant to the physician's specialty
 3. **Generates AI summaries** of the relevant records, reviewed by human medical experts for accuracy
 4. **Lets physicians write reports directly in the platform** — summaries sit side-by-side with original documents in an editable view (like Google Docs), so physicians never leave the page to draft their report
