@@ -16,7 +16,7 @@ The people buying it are not physicians. They are the operations people who mana
 
 **Primary:** QME and IME management companies that coordinate records across 10 or more physicians. These companies sit between the insurance carriers or attorneys and the doctors. They handle scheduling, record retrieval, and the full evaluation pipeline. Volume comes from the network they manage, not how many people they employ.
 
-**Secondary:** Third-Party Administrators (TPAs) on the workers' comp side who manage vendor relationships for medical evaluations.
+**Secondary:** Third-Party Administrators (TPAs) focused primarily on workers' comp, with annual revenue between $1M and $50M. These are mid-size TPAs large enough to have dedicated vendor management but small enough that they're still making cost-driven decisions. They buy medical evaluation services from vendors and care deeply about turnaround time, report quality, and cost per claim.
 
 **Also works:** These verticals are proven by existing clients:
 - Med-legal and forensic evaluation companies (e.g. forensic IMEs, expert witness review firms)
@@ -123,6 +123,17 @@ The people buying it are not physicians. They are the operations people who mana
 
 ### Apollo search sequence
 
-1. Run title search against QME/IME keyword companies in California, headcount 10–200
+**Run 1 — QME/IME companies (primary ICP):**
+1. Title search against QME/IME keyword companies in California, headcount 10–200
 2. Export to `data/prospects/` as CSV with: name, title, company, email, LinkedIn URL, employee count, state
 3. Flag any company already in current client list as duplicate and skip
+
+**Run 2 — TPA companies (secondary ICP):**
+1. Use these additional filters on top of the base people filters:
+   - Company keywords: "third party administrator," "TPA," "workers compensation claims," "claims administration," "workers comp TPA"
+   - Industry: Insurance
+   - Estimated revenue: $1M–$50M
+   - Headcount: 10–250 employees
+   - Geography: United States (workers' comp is regulated by state — prioritize CA, TX, NY, FL)
+2. Target titles: Claims Manager, Director of Claims, Head of Vendor Services, Vendor Relations Manager, Owner
+3. Export to same `data/prospects/` CSV with a `segment` column set to `TPA`
