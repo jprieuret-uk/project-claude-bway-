@@ -1,104 +1,126 @@
-# SDR Agent — Master Context File
+# SDR Agent — Master Context
 
-## What We Sell
+## Company
 
-Brighterway is an AI-powered medical record review platform built for the workers' compensation space. It ingests disorganized medical records, deduplicates them, and surfaces only the 10–15% of pages relevant to a physician's specialty — cutting hours of manual review to minutes.
+Brighterway is a medical record review platform for workers' comp. Physicians get a portal that shows only the records relevant to their specialty — usually 10–15% of what they'd otherwise have to read. Everything else is filtered out. Records are deduplicated, searchable by body part or document type, and summarized by AI.
 
-Physicians access an online portal with AI-generated summaries alongside original documents. They can filter, search, and edit by category (e.g. "Clinical Notes", "Ankle") in seconds. The platform also automates manual tasks and delivers analytics across the full record pipeline.
+It is cheaper than other AI tools doing this. The output is better than other AI startups in this space. It replaces or reduces the need for offshore medical record reviewers.
 
-**Core value props (in order of priority):**
-1. Cheaper than competitors for QME work
-2. Better AI output quality than other AI startups in this space
-3. Replaces or reduces reliance on offshore review staff
+The people buying it are not physicians. They are the operations people who manage the flow of cases to physicians.
 
 ---
 
-## Ideal Customer Profile (ICP)
+## Ideal Customer Profile
 
-**Primary target:** QME/IME management companies that coordinate work for 10 or more physicians. The key is not how many doctors they employ — it's how many physician relationships they manage and route cases through.
+### Who to target
 
-**Secondary target:** Third-Party Administrators (TPAs) handling workers' comp claims at scale.
+**Primary:** QME and IME management companies that coordinate records across 10 or more physicians. These companies sit between the insurance carriers or attorneys and the doctors. They handle scheduling, record retrieval, and the full evaluation pipeline. Volume comes from the network they manage, not how many people they employ.
 
-**Firmographic filters:**
-- Operates in the workers' compensation space (QME, IME, med-legal)
-- Manages or coordinates records for 10+ physicians
-- Based in the US (California is the core market — QME is CA-specific)
-- Company types: IME management companies, QME panels, med-legal evaluation firms, TPA vendors
+**Secondary:** Third-Party Administrators (TPAs) on the workers' comp side who manage vendor relationships for medical evaluations.
 
-**Exclude:**
+**Geography:** California first — QME is a California-specific regulatory designation. Secondary: New York, Texas, Florida (high workers' comp volume states).
+
+**Decision makers:**
+- IME/QME companies → Owner, Head of Operations, Workers' Comp Manager
+- TPAs → Claims Manager, Head of Vendor Services, Vendor Relations Director
+
+**Minimum bar:** Managing QME/IME work for 10+ physicians. Below that, the economics don't work for us or them.
+
+### Who to skip
+
 - Solo physicians with no management layer
-- General hospitals or health systems (not the target vertical)
-- Law firms (buyers of reports, not record review platforms)
+- General hospitals, health systems, urgent care clinics
+- Law firms (they receive reports; they don't review records)
+- Personal injury focused companies (adjacent, but different buying process and regulations)
+- Companies where the only decision maker is a physician with no ops staff
+- Anyone not operating in workers' comp
 
 ---
 
-## Buyer Personas
+## Intent Signals
 
-| Segment | Title | Notes |
+| Signal | Tier | Why it matters for us |
 |---|---|---|
-| QME / IME company | Owner, Head of Operations, Workers' Comp Manager | Often the same person in smaller firms |
-| TPA | Claims Manager, Head of Vendor Services, Vendor Relations Manager | Cares about turnaround time and cost per claim |
-
-Outreach should be addressed to the operations decision-maker, not the physician unless they are the owner.
-
----
-
-## Buying Signals (prospect is likely ready now)
-
-These indicate the pain is proven and budget likely exists:
-
-1. **Already using an AI platform** — they've validated the category, may be dissatisfied with output quality or cost
-2. **Using offshore staff for record review** — active spend on a problem we solve; cost and quality argument lands immediately
-3. **Hiring for medical records or operations roles** — signals volume growth and process pain
-4. **Expanding physician network or opening new locations** — case volume is increasing
-5. **Job postings for IME coordinators, medical record reviewers, or QME schedulers** — operational strain is visible
+| Currently using an AI medical record platform | High | Budget is proven and they already believe in the category — sell on better output and lower price |
+| Using offshore staff for record review | High | They have a recurring cost we can undercut today; no education needed on why the problem is real |
+| Hiring for medical record reviewer or IME coordinator roles | High | Case volume is growing faster than their current process handles — they're feeling it right now |
+| Recently added new physicians or specialties to their panel | Medium | More physicians means more record volume means the pain gets worse from here |
+| Hiring for operations or admin roles in a QME/IME context | Medium | Process strain is showing up in headcount even when it's not record-specific |
 
 ---
 
-## Messaging Guidelines
+## Message Rules
 
-**Lead with cost and quality — in that order.**
-
-- Cheaper than competitors for QME work (lead with this for price-sensitive ops buyers)
-- AI output quality is meaningfully better than other platforms (use this to differentiate from AI-first competitors)
-- If they use offshore: frame Brighterway as a direct replacement that costs less and makes fewer errors
-
-**Tone:** Direct, short, ops-minded. These are busy people managing high case volume. No fluff.
-
-**What to reference in outreach:**
-- Their physician network size or specialty if known
-- If they're an IME company vs. QME panel vs. TPA (shows you know the space)
-- Workers' comp specific language: QME, IME, AME, case volume, turnaround time, specialty filtering
-
-**What to avoid:**
-- Generic "AI-powered" language without specifics
-- Clinical language (we're not selling to physicians, we're selling to ops)
-- Long emails
+1. Lead with price. "Cheaper for QME work" is the fastest door-opener with ops buyers who are already spending money on this problem.
+2. If they use offshore staff, make the comparison explicit. They know exactly what it costs them per case. We don't need to explain the problem — just say we're cheaper and the quality doesn't slip.
+3. If they already use an AI platform, don't name it. Say our output is better and offer to show them a side-by-side.
+4. Write under 75 words. These people manage high case volume all day. They delete long emails.
+5. Reference something specific — their company name in context, the state they operate in, or their specialty mix if known.
+6. Never use: "AI-powered," "streamline," "revolutionize," "cutting-edge," "solution," "leverage," or "excited to connect."
+7. One CTA only — a 15-minute call or a demo. Not both. Not "let me know if you have questions."
+8. Write like a person who knows the workers' comp space, not a vendor who just learned what a QME is.
 
 ---
 
-## Prospecting Tools
+## Prospect Query
 
-To be configured. Likely sources:
-- Apollo.io (primary — contact and company search)
-- LinkedIn / Sales Navigator (signal detection, job postings)
-- Manual research on state QME panel directories (California DIR)
+**Tool: Apollo.io**
+
+### People filters
+
+**Job titles — include any of:**
+- Owner
+- Head of Operations
+- Director of Operations
+- Workers Compensation Manager
+- QME Manager
+- IME Manager
+- IME Coordinator (only where company size suggests a management role)
+- Claims Manager
+- Vendor Services Manager
+- Vendor Relations Manager
+- Director of Vendor Services
+
+**Exclude titles containing:**
+- Physician, Doctor, MD, DO (unless combined with Owner or Director)
+- Nurse, Therapist, Technician
+- Attorney, Paralegal, Legal
 
 ---
 
-## Data Flow
+### Company filters
 
-```
-data/prospects/   ← raw lists from Apollo or manual sourcing
-data/enriched/    ← prospects with signals, ICP score, and context added
-data/drafts/      ← personalised outreach messages ready for review
-```
+**Keywords — company name or description must match at least one:**
+- "independent medical evaluation"
+- "IME"
+- "QME"
+- "qualified medical evaluator"
+- "medical legal"
+- "workers compensation evaluation"
+- "workers comp evaluation"
+- "medical evaluation"
+
+**Industries:**
+- Medical Practice
+- Hospital & Health Care *(use only with keyword filter above to avoid hospitals)*
+- Insurance *(TPA angle — pair with workers' comp keyword)*
+
+**Headcount:** 10–500 employees
+*(Exclude solos. Large networks like ExamWorks and Leidos QTC are already known accounts.)*
+
+**Geography:** United States — filter California first, then NY, TX, FL
 
 ---
 
-## Agent Workflow
+### Exclusion filters
 
-1. **prospect_finder** — searches for QME/IME management companies matching ICP, outputs to `data/prospects/`
-2. **signal_detector** — scans each prospect for buying signals (AI tool use, offshore staff, hiring), outputs to `data/enriched/`
-3. **message_writer** — drafts personalised outreach per prospect based on signals found, outputs to `data/drafts/`
-4. **email_digest** — compiles enriched prospects and drafted messages into a daily summary email for human review before sending
+- Company name contains: "hospital," "urgent care," "emergency," "hospice," "pharmacy"
+- Industry is: Pharmaceuticals, Biotechnology, Medical Device (not the right vertical)
+
+---
+
+### Apollo search sequence
+
+1. Run title search against QME/IME keyword companies in California, headcount 10–200
+2. Export to `data/prospects/` as CSV with: name, title, company, email, LinkedIn URL, employee count, state
+3. Flag any company already in current client list as duplicate and skip
