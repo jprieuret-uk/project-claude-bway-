@@ -1,2 +1,9 @@
 # Ignore environment files containing secrets.
 .env
+
+# Ignore generated digest HTML files.
+data/digest_*.html
+
+# Ignore Python cache.
+src/__pycache__/
+*.pyc
