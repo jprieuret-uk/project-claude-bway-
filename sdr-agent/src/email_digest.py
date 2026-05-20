@@ -118,6 +118,27 @@ def build_card(draft, timing):
 
     format_label = "LinkedIn DM" if fmt == "linkedin_dm" else "Email"
 
+    email = prospect.get("email")
+    linkedin_url = prospect.get("linkedin_url")
+
+    if fmt == "linkedin_dm" and linkedin_url:
+        send_to_block = (
+            f'<div style="font-size:12px;margin-bottom:6px">'
+            f'<strong style="color:#57606a">Send to:</strong> '
+            f'<a href="{linkedin_url}" style="color:#0969da">{linkedin_url}</a></div>'
+        )
+    elif fmt == "email" and email:
+        send_to_block = (
+            f'<div style="font-size:12px;color:#57606a;margin-bottom:6px">'
+            f'<strong>Send to:</strong> '
+            f'<a href="mailto:{email}" style="color:#0969da">{email}</a></div>'
+        )
+    else:
+        send_to_block = (
+            f'<div style="font-size:12px;color:#cf222e;margin-bottom:6px">'
+            f'<strong>Send to:</strong> not enriched yet — run apollo_people_match</div>'
+        )
+
     return f"""
 <div style="border:1px solid #d0d7de;border-radius:8px;padding:20px;
             margin-bottom:20px;background:#ffffff;font-family:-apple-system,sans-serif">
@@ -138,6 +159,7 @@ def build_card(draft, timing):
   <div style="font-size:12px;color:#57606a;margin-bottom:6px">
     <strong>Format:</strong> {format_label}
   </div>
+  {send_to_block}
   {subject_block}
   <div style="background:#f6f8fa;border:1px solid #d0d7de;border-radius:6px;
               padding:14px;font-size:14px;line-height:1.65;color:#1f2328;
