@@ -7,7 +7,7 @@
   },
   "format": "email",
   "subject_line": "MDpanel's medical record reviewer hiring",
-  "message": "Saw MDpanel is doing a mass hire for medical record reviewers — 20 hires in one batch is a significant push.\n\nWhen record volume scales that fast, the manual review process tends to become the bottleneck before the new headcount catches up. Brighterway is built specifically for QME and IME work — it filters records down to the 10–15% relevant to each physician's specialty, cuts review time significantly, and costs less than what most panels spend on manual reviewers.\n\nIs replacing some of that headcount with AI something you're actively looking at?\n\nBrighterway",
+  "message": "Saw MDpanel is doing a mass hire for medical record reviewers. 20 hires in one batch is a significant push.\n\nWhen record volume scales that fast, the manual review process tends to become the bottleneck before the new headcount catches up. Brighterway is built specifically for QME and IME work. It filters records down to the 10-15% relevant to each physician's specialty, cuts review time significantly, and costs less than what most panels spend on manual reviewers.\n\nIs replacing some of that headcount with AI something you're actively looking at?\n\nBrighterway",
   "signal_referenced": "Mass hiring for medical record reviewers — 20 hires in one batch",
   "word_count": 100,
   "flag_for_review": false,

@@ -33,7 +33,10 @@ Non-negotiable rules:
    overstate it. The signal is relevant, not pressing.
    Do not invent urgency that isn't there.
 
-6. Never use these phrases:
+6. Never use em dashes (—). Rewrite any sentence that would need one.
+   Use a period, a comma, or split into two sentences instead.
+
+7. Never use these phrases:
    "Hope this finds you well" / "I'd love to connect" /
    "Quick question" / "Exciting opportunity" /
    "I came across your profile" / "Love what you're building"
