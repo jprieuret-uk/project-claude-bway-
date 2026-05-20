@@ -20,7 +20,7 @@ The people buying it are not physicians. They are the operations people who mana
 
 **Also works:** These verticals are proven by existing clients:
 - Med-legal and forensic evaluation companies (e.g. forensic IMEs, expert witness review firms)
-- Specialty practices that do high volumes of evaluation work — orthopedics, pain management, rehabilitation, dental QMEs
+- Specialty med-legal practices doing evaluation work — orthopedics, pain management, rehabilitation, dental QMEs
 
 **Geography:** California first — QME is a California-specific regulatory designation. Secondary: New York, Texas, Florida (high workers' comp volume states).
 
