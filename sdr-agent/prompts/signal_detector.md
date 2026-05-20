@@ -40,3 +40,10 @@ timing_score reflects how urgent the moment is, not ICP fit.
 Below 5: no signal detected — add to monitor list.
 
 Never fabricate evidence. If nothing is found, say so.
+
+Re-scoring rules:
+- Prospects in contact_now or contact_this_week: re-score every run.
+- Prospects in monitor: re-score only if last_checked is more than
+  14 days ago. If last_checked is within 14 days, skip and carry
+  forward their existing score and recommendation unchanged.
+- Always update last_checked timestamp when a prospect is re-scored.
