@@ -31,9 +31,7 @@ The people buying it are not physicians. They are the operations people who mana
 - Solo physicians with no management layer
 - General hospitals, health systems, urgent care clinics
 - Law firms (they receive reports; they don't review records)
-- Personal injury focused companies (adjacent, but different buying process and regulations)
 - Companies where the only decision maker is a physician with no ops staff
-- Anyone not operating in workers' comp
 
 ---
 
