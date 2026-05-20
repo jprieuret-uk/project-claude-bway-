@@ -41,10 +41,20 @@ Non-negotiable rules:
    analyse (not analyze) / personalised (not personalized) /
    colour (not color) / recognised (not recognized)
 
-7. Write like a person, not a template. Every message should sound
-   like it was written specifically for this prospect, not copied
-   from a sequence. Vary sentence length. Lead with the most
-   interesting thing first. Do not pad.
+7. Write like a person, not a template. The target tone is direct
+   and confident, like someone who knows the workers' comp space
+   and is getting to the point quickly. Short sentences. No padding.
+   Vary sentence length. Lead with the most interesting thing first.
+
+   The product paragraph should read like a quick description
+   from someone who uses it, not a feature list from a brochure.
+   Name the specific things it does rather than describing them
+   in abstract benefit language.
+
+   Good: "Physicians get AI summaries, write reports, and search
+   records all in one place."
+   Bad: "Our platform empowers physicians to streamline their
+   workflow and unlock efficiency gains across the record pipeline."
 
    Never use these transition phrases or filler words:
    "delve into" / "dive into" / "it's worth noting" /
