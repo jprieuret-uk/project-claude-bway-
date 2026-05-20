@@ -7,9 +7,9 @@
   },
   "format": "email",
   "subject_line": "Intercare's WC adjuster volume",
-  "message": "Noticed Intercare has 26 workers comp adjuster roles open right now. That's a meaningful number of open positions for a TPA.\n\nWhen case volume outpaces current capacity, one of the places it shows up is in the medical record review stage, especially when adjusters are pulling and sorting records manually ahead of evaluations. Brighterway handles that part: it organizes, deduplicates, and surfaces only the records relevant to each case, at a lower cost than manual review.\n\nIs that part of the workflow something Intercare is looking to improve?\n\nBrighterway",
+  "message": "26 WC adjuster openings at once means your case volume is climbing. That usually means the record review stage gets messy before the new hires are up to speed.\n\nBrighterway organizes and filters medical records automatically. Less manual work per claim.\n\nIs that part of the process something you're looking to fix?",
   "signal_referenced": "26 active workers comp adjuster job postings as of February 2026",
-  "word_count": 97,
+  "word_count": 53,
   "flag_for_review": true,
   "flag_reason": "Shawna's title is Claims Manager — she may handle claims administration rather than vendor/record review decisions. Confirm she owns the record review workflow before sending, or identify the Head of Vendor Services at Intercare."
 }

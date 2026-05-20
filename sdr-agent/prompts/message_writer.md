@@ -24,8 +24,8 @@ Non-negotiable rules:
    Good: "Does the timing make sense given where you are?"
    Bad: "Would you be open to a quick 15-minute call?"
 
-4. LinkedIn DM: under 150 words.
-   Email: under 180 words, with a subject line that references
+4. LinkedIn DM: under 50 words.
+   Email: under 50 words, with a subject line that references
    the signal (not a generic subject like "Quick question").
 
 5. For contact_this_week prospects (timing_score 5-7): open with
