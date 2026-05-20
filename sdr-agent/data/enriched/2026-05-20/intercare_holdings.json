@@ -1,0 +1,24 @@
+{
+  "prospect": {
+    "first_name": "Shawna",
+    "last_name": "OBFUSCATED",
+    "title": "Claims Manager",
+    "company": "Intercare Holdings Insurance Services",
+    "segment": "TPA",
+    "source_id": "54ab0bd37468690377a92d1e"
+  },
+  "signals": [
+    {
+      "type": "Hiring for operations or admin roles in a QME/IME context",
+      "evidence": "32 open positions on Glassdoor including 26 Workers Compensation Claims Adjuster roles and Claims Supervisor positions — active hiring surge as of Feb 2026",
+      "source": "https://www.glassdoor.com/Jobs/Intercare-Holdings-Insurance-Services-Jobs-E364154.htm",
+      "date": "February 2026",
+      "relevance": "medium",
+      "opening_line": "Intercare looks like it's in a big hiring push right now — 26 WC adjuster roles open at once usually means case volume is outpacing current capacity."
+    }
+  ],
+  "timing_score": 6,
+  "best_signal": "26 active workers comp adjuster job postings — volume strain is visible",
+  "best_opening_line": "Intercare looks like it's in a big hiring push right now — 26 WC adjuster roles open at once usually means case volume is outpacing current capacity.",
+  "recommendation": "contact_this_week"
+}

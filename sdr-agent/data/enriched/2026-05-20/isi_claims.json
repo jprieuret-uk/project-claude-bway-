@@ -1,0 +1,16 @@
+{
+  "prospect": {
+    "first_name": "Ana",
+    "last_name": "OBFUSCATED",
+    "title": "Director of Operations",
+    "company": "ISI Claims",
+    "segment": "TPA",
+    "source_id": "5e5b925f4963a90001d9b1b0"
+  },
+  "signals": [],
+  "timing_score": 3,
+  "best_signal": null,
+  "best_opening_line": null,
+  "recommendation": "monitor",
+  "note": "No signal detected in web search. ISI Claims confirmed as CA workers comp TPA — solid ICP fit but no urgency trigger found. Add to monitor list and re-run in 30 days."
+}
