@@ -146,3 +146,15 @@ The people buying it are not physicians. They are the operations people who mana
    - Geography: United States (workers' comp is regulated by state — prioritize CA, TX, NY, FL)
 2. Target titles: Claims Manager, Director of Claims, Head of Vendor Services, Vendor Relations Manager, Owner
 3. Export to same `data/prospects/` CSV with a `segment` column set to `TPA`
+
+---
+
+## Agent Workflow
+
+**Hard rule: Apollo credits are only spent after a prospect has a timing score of 5+. Never enrich before signal detection.**
+
+1. **prospect_finder** — search Apollo, filter by "Who to skip" criteria, save raw list to `data/prospects/[date].json`. No enrichment yet.
+2. **signal_detector** — run signal detection and timing scoring on every prospect. Save results to `data/enriched/[date]/`. Split into `contact_now.json`, `contact_this_week.json`, `monitor.json`.
+3. **Apollo enrichment** — run `apollo_people_match` only on prospects in `contact_now.json` and `contact_this_week.json` to reveal full names and emails. Skip `monitor.json` entirely.
+4. **message_writer** — draft personalised outreach for each enriched prospect. Save to `data/drafts/[date]/`.
+5. **email_digest** — compile all drafts into a daily summary email for human review and approval before anything is sent.
