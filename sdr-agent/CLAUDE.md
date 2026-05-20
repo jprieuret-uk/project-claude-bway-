@@ -18,6 +18,11 @@ The people buying it are not physicians. They are the operations people who mana
 
 **Secondary:** Third-Party Administrators (TPAs) on the workers' comp side who manage vendor relationships for medical evaluations.
 
+**Also works:** These verticals are proven by existing clients:
+- Med-legal and forensic evaluation companies (e.g. forensic IMEs, expert witness review firms)
+- Specialty practices that do high volumes of evaluation work — orthopedics, pain management, rehabilitation
+- Dental practices doing med-legal or insurance-related record review (e.g. Abri Dental)
+
 **Geography:** California first — QME is a California-specific regulatory designation. Secondary: New York, Texas, Florida (high workers' comp volume states).
 
 **Decision makers:**
