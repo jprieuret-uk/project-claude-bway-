@@ -38,15 +38,15 @@ def already_enriched(prospect):
 
 
 def apollo_match(first_name, company, title, api_key):
+    headers = {"x-api-key": api_key, "Content-Type": "application/json"}
     payload = {
-        "api_key": api_key,
         "first_name": first_name,
         "organization_name": company,
         "title": title,
         "reveal_personal_emails": False,
         "reveal_phone_number": False,
     }
-    resp = requests.post(APOLLO_MATCH_URL, json=payload, timeout=15)
+    resp = requests.post(APOLLO_MATCH_URL, json=payload, headers=headers, timeout=15)
     resp.raise_for_status()
     data = resp.json()
     person = data.get("person") or {}
