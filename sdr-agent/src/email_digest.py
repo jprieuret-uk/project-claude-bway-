@@ -89,7 +89,9 @@ def badge(text, bg, color):
 
 def build_card(draft, timing):
     prospect = draft.get("prospect", {})
-    name = prospect.get("first_name", "")
+    first_name = prospect.get("first_name", "")
+    last_name = prospect.get("last_name", "")
+    name = f"{first_name} {last_name}".strip() if last_name and last_name.upper() != "OBFUSCATED" else first_name
     title = prospect.get("title", "")
     company = prospect.get("company", "")
     company_key = company.lower()
