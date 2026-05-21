@@ -38,7 +38,7 @@ def already_enriched(prospect):
 
 
 def apollo_match(first_name, company, title, api_key):
-    headers = {"x-api-key": api_key, "Content-Type": "application/json"}
+    headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
     payload = {
         "first_name": first_name,
         "organization_name": company,
