@@ -26,6 +26,17 @@ def load_env():
     return env
 
 
+def validate_draft(data, slug):
+    message = data.get("message", "")
+    if "—" in message:
+        data["flag_for_review"] = True
+        existing = data.get("flag_reason") or ""
+        em_dash_note = "Em dash found in message copy. Rewrite before sending."
+        data["flag_reason"] = f"{existing} | {em_dash_note}".lstrip(" |") if existing else em_dash_note
+        print(f"  [!] Em dash detected in {slug} — auto-flagged.")
+    return data
+
+
 def load_drafts(date_str):
     drafts_dir = ROOT / "data" / "drafts" / date_str
     if not drafts_dir.exists():
@@ -35,6 +46,7 @@ def load_drafts(date_str):
     for f in sorted(drafts_dir.glob("*.json")):
         data = json.loads(f.read_text())
         data["_slug"] = f.stem
+        data = validate_draft(data, f.stem)
         drafts.append(data)
     if not drafts:
         print(f"No drafts found for {date_str}.")
