@@ -104,7 +104,8 @@ def build_card(draft, timing):
     flag_reason = draft.get("flag_reason") or ""
     fmt = draft.get("format", "")
     subject = draft.get("subject_line")
-    message = draft.get("message", "").replace("\n", "<br>")
+    greeting = f"Hi {first_name},<br><br>" if first_name else ""
+    message = greeting + draft.get("message", "").replace("\n", "<br>")
     signal = draft.get("signal_referenced", "")
     word_count = draft.get("word_count", "")
 
