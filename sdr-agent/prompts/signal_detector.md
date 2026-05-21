@@ -20,7 +20,8 @@ For each signal found, return:
 - type: the signal name from CLAUDE.md
 - evidence: what specifically you found (quote it)
 - source: URL
-- date: when it happened
+- date: ISO date (YYYY-MM-DD) or YYYY-MM if exact day unknown — never a vague range like "2025-2026"
+- signal_age_days: integer, calculated from today's date
 - relevance: high / medium
 - opening_line: one sentence that references this signal
   naturally in a message opener
@@ -35,9 +36,14 @@ Return JSON:
 }
 
 timing_score reflects how urgent the moment is, not ICP fit.
-8-10: something changed this week or this month — contact now.
-5-7: relevant context, no urgency signal — contact this week.
-Below 5: no signal detected — add to monitor list.
+Apply these recency caps strictly — no exceptions:
+
+- Signal within 30 days → eligible for score 8-10 → recommend contact_now
+- Signal within 31-90 days → eligible for score 5-7 → recommend contact_this_week
+- Signal older than 90 days → score capped at 4 → recommend monitor
+
+If the date of a signal cannot be confirmed to within 90 days, treat it as older than 90 days.
+If no signal has a confirmed date within 90 days, the prospect goes to monitor regardless of other factors.
 
 Never fabricate evidence. If nothing is found, say so.
 
