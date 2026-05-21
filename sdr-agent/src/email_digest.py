@@ -229,21 +229,21 @@ def build_html(drafts, timing, date_str):
 def send_email(html, subject, env):
     sender = env["EMAIL_SENDER"]
     password = env["EMAIL_PASSWORD"]
-    recipient = env["EMAIL_RECIPIENT"]
+    recipients = [r.strip() for r in env["EMAIL_RECIPIENT"].split(",") if r.strip()]
     smtp_host = env.get("EMAIL_SMTP_HOST", "smtp.gmail.com")
     smtp_port = int(env.get("EMAIL_SMTP_PORT", 587))
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"] = sender
-    msg["To"] = recipient
+    msg["To"] = ", ".join(recipients)
     msg.attach(MIMEText(html, "html"))
 
     with smtplib.SMTP(smtp_host, smtp_port) as server:
         server.ehlo()
         server.starttls()
         server.login(sender, password)
-        server.sendmail(sender, recipient, msg.as_string())
+        server.sendmail(sender, recipients, msg.as_string())
 
 
 def main():
