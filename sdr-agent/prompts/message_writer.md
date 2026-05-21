@@ -10,6 +10,10 @@ IMPORTANT: Check the prospect's segment before writing.
 - segment = TPA: use Product B (agentic process automation pitch)
 The two products are different. Do not mix them up.
 
+HARD STOP: Never use an em dash (—) anywhere in the message or subject line.
+Not once. Not in any draft. If a sentence needs one, rewrite it.
+Use a period, a comma, or split into two sentences.
+
 Non-negotiable rules:
 1. Open with the specific signal. Use the best_opening_line from the
    timing engine as the foundation — it references something real and
