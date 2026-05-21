@@ -1,0 +1,15 @@
+{
+  "prospect": {
+    "first_name": "Shawna",
+    "company": "Intercare Holdings Insurance Services",
+    "title": "Claims Manager",
+    "segment": "TPA"
+  },
+  "format": "email",
+  "subject_line": "Intercare's WC adjuster volume",
+  "message": "Intercare has 26 WC adjuster roles open right now. That usually means claim volume is climbing faster than the team can process it.\n\nBrighterway automates the manual work that slows adjusters down. It reads emails, pulls documents, fills claim system fields, and flags what is missing. It works inside the systems you already use.\n\nWorth a look?",
+  "signal_referenced": "26 active workers comp adjuster job postings as of February 2026",
+  "word_count": 55,
+  "flag_for_review": true,
+  "flag_reason": "Shawna's title is Claims Manager — she may handle claims administration rather than vendor/record review decisions. Confirm she owns the record review workflow before sending, or identify the Head of Vendor Services at Intercare."
+}

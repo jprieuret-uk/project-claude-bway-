@@ -1,0 +1,18 @@
+[
+  {
+    "company": "Simplexam",
+    "contact": "Jared (last name obfuscated — enrichment needed)",
+    "title": "Director of Strategy and Business Operations",
+    "timing_score": 4,
+    "note": "Simplexam is a software platform, not a direct record review buyer. Potential channel partner. Re-evaluate before outreach.",
+    "file": "simplexam.json"
+  },
+  {
+    "company": "ISI Claims",
+    "contact": "Ana (last name obfuscated — enrichment needed)",
+    "title": "Director of Operations",
+    "timing_score": 3,
+    "note": "Good ICP fit as a CA workers comp TPA but no urgency signal found. Re-run in 30 days.",
+    "file": "isi_claims.json"
+  }
+]

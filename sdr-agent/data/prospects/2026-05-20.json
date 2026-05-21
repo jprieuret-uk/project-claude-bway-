@@ -1,0 +1,52 @@
+[
+  {
+    "source_id": "667bd44f15b0120001272a5b",
+    "first_name": "Jared",
+    "last_name": "OBFUSCATED",
+    "title": "Director of Strategy and Business Operations",
+    "company": "Simplexam",
+    "segment": "QME/IME",
+    "has_email": false,
+    "enrichment_needed": true
+  },
+  {
+    "source_id": "66f69216a2325e00017a3c01",
+    "first_name": "Ramond",
+    "last_name": "OBFUSCATED",
+    "title": "General Manager, West Region IME",
+    "company": "MDpanel",
+    "segment": "QME/IME",
+    "has_email": true,
+    "enrichment_needed": true
+  },
+  {
+    "source_id": "60ad6d4489cae700010816af",
+    "first_name": "Hector",
+    "last_name": "OBFUSCATED",
+    "title": "Director of Operations",
+    "company": "MDpanel",
+    "segment": "QME/IME",
+    "has_email": true,
+    "enrichment_needed": true
+  },
+  {
+    "source_id": "5e5b925f4963a90001d9b1b0",
+    "first_name": "Ana",
+    "last_name": "OBFUSCATED",
+    "title": "Director of Operations",
+    "company": "ISI Claims",
+    "segment": "TPA",
+    "has_email": true,
+    "enrichment_needed": true
+  },
+  {
+    "source_id": "54ab0bd37468690377a92d1e",
+    "first_name": "Shawna",
+    "last_name": "OBFUSCATED",
+    "title": "Claims Manager",
+    "company": "Intercare Holdings Insurance Services",
+    "segment": "TPA",
+    "has_email": true,
+    "enrichment_needed": true
+  }
+]

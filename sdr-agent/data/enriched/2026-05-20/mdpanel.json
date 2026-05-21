@@ -1,0 +1,32 @@
+{
+  "prospect": {
+    "first_name": "Ramond",
+    "last_name": "OBFUSCATED",
+    "title": "General Manager, West Region IME",
+    "company": "MDpanel",
+    "segment": "QME/IME",
+    "source_id": "66f69216a2325e00017a3c01"
+  },
+  "signals": [
+    {
+      "type": "Hiring for medical record reviewer or IME coordinator roles",
+      "evidence": "Facebook post: 'Mass Hiring for MDpanel: Medical Record Reviewer (1st batch — 20 hires). We are currently...' — active mass hiring campaign for record reviewers",
+      "source": "https://www.facebook.com/groups/217509609096946/posts/mass-hiring-for-mdpanel-medical-record-reviewer-1st-batch-20-hires-we-are-curren/1602980380549855/",
+      "date": "2025-2026",
+      "relevance": "high",
+      "opening_line": "Saw MDpanel is doing a mass hire for medical record reviewers — that kind of volume usually means the manual process is hitting a wall."
+    },
+    {
+      "type": "Hiring for operations or admin roles in a QME/IME context",
+      "evidence": "ZipRecruiter shows 5 active MDpanel job listings including Quality Assurance Specialist (Personal Injury) and Traveling Medical Assistant roles as of March 2026",
+      "source": "https://www.ziprecruiter.com/co/mdpanel/Jobs",
+      "date": "March 2026",
+      "relevance": "medium",
+      "opening_line": "Noticed MDpanel is hiring across several ops roles right now — looks like you're scaling fast."
+    }
+  ],
+  "timing_score": 9,
+  "best_signal": "Mass hiring for medical record reviewers — 20 hires in one batch",
+  "best_opening_line": "Saw MDpanel is doing a mass hire for medical record reviewers — that kind of volume usually means the manual process is hitting a wall.",
+  "recommendation": "contact_now"
+}
