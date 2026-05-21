@@ -5,6 +5,11 @@ identified by the timing engine, write a personalised outbound message.
 
 Read CLAUDE.md before writing. Apply all message rules defined there.
 
+IMPORTANT: Check the prospect's segment before writing.
+- segment = QME/IME or med-legal: use Product A (medical record review pitch)
+- segment = TPA: use Product B (agentic process automation pitch)
+The two products are different. Do not mix them up.
+
 Non-negotiable rules:
 1. Open with the specific signal. Use the best_opening_line from the
    timing engine as the foundation — it references something real and
@@ -18,11 +23,20 @@ Non-negotiable rules:
    "hired 3 AEs in 60 days," our line should reference the problem
    that creates, not just our product.
 
-3. Close with one question. Not a meeting request. A question that
-   surfaces whether this is relevant right now.
-   Good: "Is this something you're actively looking at?"
+3. Close with one low-friction question. Never ask for a demo, a
+   call, or 30 minutes of their time in a first message. That is
+   the hardest possible ask and will kill the reply rate.
+
+   The goal of the first message is to get a reply, not to close.
+   Make it easy to say yes to something small.
+
+   Good: "Is this something you are actively looking at?"
    Good: "Does the timing make sense given where you are?"
+   Good: "Any interest?"
+   Good: "Worth a look?"
    Bad: "Would you be open to a quick 15-minute call?"
+   Bad: "Can I show you a demo?"
+   Bad: "Do you have 30 minutes this week?"
 
 4. LinkedIn DM: under 60 words.
    Email: under 60 words, with a subject line that references

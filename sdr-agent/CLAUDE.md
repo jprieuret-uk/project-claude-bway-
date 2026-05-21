@@ -2,18 +2,38 @@
 
 ## Company
 
-Brighterway is an AI platform that handles the full medical record review pipeline for workers' comp and med-legal work. It is not just a filter. Here is what it actually does:
+Brighterway has two distinct products depending on who you are selling to. Use the right one.
 
-1. **Organises and deduplicates** disorganized medical records (usually large PDF batches)
+---
+
+### Product A — QME / IME Medical Record Review (for IME companies, QME panels, med-legal firms)
+
+Brighterway handles the full medical record review pipeline. It is not just a filter. Here is what it does:
+
+1. **Organises and deduplicates** disorganised medical records (usually large PDF batches)
 2. **Filters out 80% of irrelevant records**, surfacing only what is relevant to the physician's specialty
-3. **Generates AI summaries** of the relevant records, reviewed by human medical experts for accuracy
-4. **Lets physicians write reports directly in the platform** — summaries sit side-by-side with original documents in an editable view (like Google Docs), so physicians never leave the page to draft their report
-5. **Analytics** across the full record pipeline
-6. **Searchable by body part, document type, or keyword** (e.g. "Ankle," "Clinical Notes") in seconds
+3. **Generates AI summaries** reviewed by human medical experts for accuracy
+4. **Lets physicians write reports directly in the platform** — summaries sit side-by-side with original documents in an editable view, so physicians never leave the page
+5. **Searchable by body part, document type, or keyword** (e.g. "Ankle," "Clinical Notes") in seconds
+6. **Analytics** across the full record pipeline
 
-It is much cheaper than other AI tools doing this. The output quality is better than other AI startups in this space. It replaces or reduces the need for offshore medical record reviewers.
+It is much cheaper than other AI tools doing this. The output quality is better than other AI startups in this space. It replaces or reduces the need for offshore medical record reviewers. The platform is bespoke and highly customisable — built to fit how a specific panel operates, not a one-size-fits-all product.
 
-The platform is bespoke and highly customisable. It is built to fit how a specific panel or company operates, not a one-size-fits-all product. This is a differentiator worth referencing in outreach.
+---
+
+### Product B — Agentic Process Automation (for TPAs)
+
+For TPAs, Brighterway is a different pitch entirely. It automates the manual work that slows down TPA claim operations. The agentic engine reads emails, attachments, claim documents, medical records, forms, and notes — understands what needs to happen next — and fills information directly into the claim system.
+
+**What it handles for TPAs:**
+- **Claim intake** — ingests claim packets, classifies materials, extracts key details, fills structured data into the claim system. Sales line: "We turn raw emails and documents into clean, structured claim files without manual re-keying."
+- **Email and inbox processing** — classifies inbound messages, associates materials with the right claim, identifies required follow-up, drafts responses or internal notes. Sales line: "We turn the claim inbox from a manual queue into an automated workflow trigger."
+- **Requests for missing information** — detects incomplete files, missing fields, inconsistent data, and generates follow-up requests. Sales line: "We do not just tell you what is in the file. We tell you what is missing and help chase it down."
+- **Adjusting support** — surfaces key facts, prepares claim chronologies, flags inconsistencies, generates draft outputs for adjuster review. Sales line: "We give adjusters a claim file that is already organised, summarised, and ready for action."
+- **Case note generation** — generates structured case notes from new documents, claim activity, correspondence, and internal review steps.
+- **Medical record review** — reads, organises, and summarises medical records, diagnostics, bills, treatment timelines, and causation indicators.
+
+**Integrations:** Guidewire, Duck Creek, Salesforce, email and shared inboxes, document management systems, client portals, custom platforms, APIs, webhooks, SFTP. The goal is to automate work inside the systems teams already use — not force them into a new one.
 
 The people buying it are not physicians. They are the operations people who manage the flow of cases to physicians.
 
