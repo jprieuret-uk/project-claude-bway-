@@ -11,7 +11,9 @@ Steps:
 4. If neither is connected: check data/prospects/ for a CSV file
    loaded manually, parse it, and proceed from there
 5. Print which source was used before continuing
-6. Request 30-50 prospects per run
+6. Request 15 prospects per batch — the pipeline runs multiple batches
+   until it finds 11 qualifying prospects, so fetch in small increments
+   rather than one large pull
 7. For each prospect returned, extract:
    first_name, last_name, title, company, employee_count,
    linkedin_url, email, source_id
@@ -25,5 +27,5 @@ Steps:
 
 Do NOT enrich contacts at this stage. Full name and email reveal
 via apollo_people_match happens after signal detection, and only
-for prospects with a timing score of 5 or above. Enriching before
+for prospects with a timing score of 3 or above. Enriching before
 scoring wastes Apollo credits on prospects that will never be contacted.

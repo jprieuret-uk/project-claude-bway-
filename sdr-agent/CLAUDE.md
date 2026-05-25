@@ -21,6 +21,8 @@ It is much cheaper than other AI tools doing this. The output quality is better 
 
 ---
 
+<!-- TPA — commented out, re-enable when ready to run
+
 ### Product B — Agentic Process Automation (for TPAs)
 
 For TPAs, Brighterway is a different pitch entirely. It automates the manual work that slows down TPA claim operations. The agentic engine reads emails, attachments, claim documents, medical records, forms, and notes — understands what needs to happen next — and fills information directly into the claim system.
@@ -37,6 +39,8 @@ For TPAs, Brighterway is a different pitch entirely. It automates the manual wor
 
 The people buying it are not physicians. They are the operations people who manage the flow of cases to physicians.
 
+-->
+
 ---
 
 ## Ideal Customer Profile
@@ -45,7 +49,7 @@ The people buying it are not physicians. They are the operations people who mana
 
 **Primary:** QME and IME management companies that coordinate records across 10 or more physicians. These companies sit between the insurance carriers or attorneys and the doctors. They handle scheduling, record retrieval, and the full evaluation pipeline. Volume comes from the network they manage, not how many people they employ.
 
-**Secondary:** Third-Party Administrators (TPAs) focused primarily on workers' comp, with annual revenue between $1M and $50M. These are mid-size TPAs large enough to have dedicated vendor management but small enough that they're still making cost-driven decisions. They buy medical evaluation services from vendors and care deeply about turnaround time, report quality, and cost per claim.
+<!-- **Secondary:** Third-Party Administrators (TPAs) focused primarily on workers' comp, with annual revenue between $1M and $50M. These are mid-size TPAs large enough to have dedicated vendor management but small enough that they're still making cost-driven decisions. They buy medical evaluation services from vendors and care deeply about turnaround time, report quality, and cost per claim. -->
 
 **Also works:** These verticals are proven by existing clients:
 - Med-legal and forensic evaluation companies (e.g. forensic IMEs, expert witness review firms)
@@ -55,7 +59,7 @@ The people buying it are not physicians. They are the operations people who mana
 
 **Decision makers:**
 - IME/QME companies → Owner, Head of Operations, Workers' Comp Manager
-- TPAs → Claims Manager, Head of Vendor Services, Vendor Relations Director
+<!-- - TPAs → Claims Manager, Head of Vendor Services, Vendor Relations Director -->
 
 **Minimum bar:** Managing QME/IME work for 10+ physicians. Below that, the economics don't work for us or them.
 
@@ -77,6 +81,8 @@ The people buying it are not physicians. They are the operations people who mana
 | Hiring for medical record reviewer or IME coordinator roles | High | Case volume is growing faster than their current process handles — they're feeling it right now |
 | Recently added new physicians or specialties to their panel | Medium | More physicians means more record volume means the pain gets worse from here |
 | Hiring for operations or admin roles in a QME/IME context | Medium | Process strain is showing up in headcount even when it's not record-specific |
+| Recent expansion — new office, new state, or new specialty announced | Medium | Growth means more record volume coming; pain is about to get worse |
+| Job posting or website copy mentions turnaround time, backlog, or record volume as a challenge | High | They're naming the exact problem we solve |
 
 ---
 
@@ -85,7 +91,7 @@ The people buying it are not physicians. They are the operations people who mana
 1. Lead with price. "Cheaper for QME work" is the fastest door-opener with ops buyers who are already spending money on this problem.
 2. If they use offshore staff, make the comparison explicit. They know exactly what it costs them per case. We don't need to explain the problem — just say we're cheaper and the quality doesn't slip.
 3. If they already use an AI platform, don't name it. Say our output is better and offer to show them a side-by-side.
-4. Write under 75 words. These people manage high case volume all day. They delete long emails.
+4. Write under 60 words. These people manage high case volume all day. They delete long emails.
 5. Reference something specific — their company name in context, the state they operate in, or their specialty mix if known.
 6. Never use: "AI-powered," "streamline," "revolutionize," "cutting-edge," "solution," "leverage," or "excited to connect."
 7. One CTA only — a 15-minute call or a demo. Not both. Not "let me know if you have questions."
@@ -134,7 +140,7 @@ The people buying it are not physicians. They are the operations people who mana
 **Industries:**
 - Medical Practice
 - Hospital & Health Care *(use only with keyword filter above to avoid hospitals)*
-- Insurance *(TPA angle — pair with workers' comp keyword)*
+<!-- - Insurance *(TPA angle — pair with workers' comp keyword)* -->
 
 **Headcount:** 10–500 employees
 *(Exclude solos. Large networks like ExamWorks and Leidos QTC are already known accounts.)*
@@ -157,6 +163,8 @@ The people buying it are not physicians. They are the operations people who mana
 2. Export to `data/prospects/` as CSV with: name, title, company, email, LinkedIn URL, employee count, state
 3. Flag any company already in current client list as duplicate and skip
 
+<!-- TPA — Run 2, re-enable when ready
+
 **Run 2 — TPA companies (secondary ICP):**
 1. Use these additional filters on top of the base people filters:
    - Company keywords: "third party administrator," "TPA," "workers compensation claims," "claims administration," "workers comp TPA"
@@ -167,11 +175,13 @@ The people buying it are not physicians. They are the operations people who mana
 2. Target titles: Claims Manager, Director of Claims, Head of Vendor Services, Vendor Relations Manager, Owner
 3. Export to same `data/prospects/` CSV with a `segment` column set to `TPA`
 
+-->
+
 ---
 
 ## Agent Workflow
 
-**Hard rule: Apollo credits are only spent after a prospect has a timing score of 5+. Never enrich before signal detection.**
+**Hard rule: Apollo credits are only spent after a prospect has a timing score of 3+. Never enrich before signal detection.**
 
 1. **prospect_finder** — search Apollo, filter by "Who to skip" criteria, save raw list to `data/prospects/[date].json`. No enrichment yet.
 2. **signal_detector** — run signal detection and timing scoring on every prospect. Save results to `data/enriched/[date]/`. Split into `contact_now.json`, `contact_this_week.json`, `monitor.json`.
